@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login page</title>
+  <link href="./styles04.css" rel="stylesheet">
+</head>
+<body>
+  <div class="blog-finder">
+    <h1>BLOG FINDER</h1>
+  </div>
+  <div class="container01">
+    <img class="login-image" src="./images/loginuser.png" alt="login-user">
+    <p class="login-word">L O G I N</p>
+  </div>
+
+  <div class="container02">
+    <form action="/check" method="post" class="form-elements">
+      <div class="username-part">
+        <img src="./images/username.png" id="username-image">
+        <input id="username" type="text" name="username" placeholder="username" required>
+      </div>
+      <div class="password-part">
+        <img src="./images/password.png" id="password-image">
+        <input id="password" type="password" name="password" placeholder="password" required>
+      </div>
+      <button type="submit" id="submit-button">login</button>
+    </form>
+    <form action="/reg" method="get">
+    <button type="submit" id="new-user-button">new user?</button>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="./index.js"></script>
+  <script src="../index02.js"></script>
+</body>
+</html>

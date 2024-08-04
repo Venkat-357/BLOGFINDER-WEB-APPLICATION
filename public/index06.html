@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEW BLOG POST</title>
+    <link href="./styles07.css" rel="stylesheet">
+</head>
+<body>
+        <div class="container">
+          <h1 class="main-heading">Modify Blog</h1>
+          <div class="container-02">
+            <form action="/update" method="post" id="form-element">
+            <div class="id">
+                <label id="id-label" for="blog-id">ID :</label>
+                <input type="number" id="blog-id" name="blogid" required>
+            </div>
+            <div class="name">
+              <label id="name-label" for="blog-name">Name :</label>
+              <input type="text" id="blog-name" name="blogName" required>
+            </div>
+            <div class="content">
+              <label id="content-label" for="blog-content">Content :</label>
+              <input type="text" id="blog-content" name="blogContent" required>
+            </div>
+            <div class="author">
+              <label id="author-label" for="author-name">Author Name :</label>
+              <input type="text" id="author-name" name="authorName" required>
+            </div>
+            <div id="submit-button-div">
+              <button type="submit" id="submit-button">Submit</button>
+            </div>
+            </form>
+          </div>
+        </div>
+</body>
+</html>

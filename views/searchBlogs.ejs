@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles08.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-heading">Search Blog</h1>
+        <div class="container-02">
+          <div class="id">
+              <label id="id-label" for="blog-id">Blog-ID :</label>
+              <form action="/searchResults" method="post" id="add-new-form">
+                <input type="number" id="blog-id" name="blogid" required>
+                <div id="search-submit-button">
+                <button id="search-submit" type="submit">Submit</button>
+                </div>
+            </form>
+          </div>
+
+          <% for(i=0;i<blogs.length;i++){%>
+            <h1 id="search-suggestions"><%=blogs[i].id%> - <%=blogs[i].name%></h1>
+            <%}%>
+          
+        </div>
+      </div>
+</body>
+</html>
+

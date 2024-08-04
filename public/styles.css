@@ -1,0 +1,255 @@
+#text-item
+{
+    border: 5px solid white;
+    border-radius: 10px;
+    font-size: large;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+#home
+{
+    color: white;
+}
+.mouseover
+{
+    border : white solid 3px;
+    padding : 0px;
+    margin : 0px;
+    border-radius : 10px;
+    color : black;
+    background-color: whitesmoke;
+    font-weight: 500;
+}
+.trial
+{
+    color : black;
+}
+html
+{
+    background-color: rgba(9, 174, 229, 0.171);
+}
+.title
+{
+    background-color: rgba(9, 174, 229, 0.171);
+}
+#BLOG-finder
+{
+    text-align: center;
+    border : 5px solid black ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.tag-line{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.display-image
+{
+    height: 500px;
+    width: 600px;
+    border: 5px solid black;
+}
+#footer-two
+{
+    border : 3px solid black;
+    padding: 10px;
+    margin: 30px;
+    width:1400px;
+    text-align: center;
+}
+.card-container
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 90px;
+    margin-bottom: 100px;
+}
+.card-one
+{
+    width: 300px;
+}
+.card-two
+{
+    width: 300px;
+}
+.card-three
+{
+    width: 300px;
+}
+#img-one
+{
+    height:250px;
+    width:300px;
+    margin-bottom:10px;
+    border: 5px solid black;
+}
+#img-two
+{
+    height:250px;
+    width:300px;
+    margin-bottom:10px;
+    border: 5px solid black;
+}
+#img-three
+{
+    height:250px;
+    width:300px;
+    margin-bottom:10px;
+    border: 5px solid black;
+}
+h5
+{
+    font-style: italic;
+    font-weight:bold;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 25px;
+
+}
+.card-text
+{
+    font-weight: 500;
+}
+#economy-dropdown
+{
+    width: 300px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+#crime-dropdown
+{
+    width: 300px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+#technology-dropdown
+{
+    width: 300px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
+.genere
+{
+    background-color: rgba(3, 31, 50, 0.594);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom : 50px;
+    text-align: center;
+    cursor: pointer;
+    color : whitesmoke
+}
+i{
+    cursor: pointer;
+}
+.second-card-container
+{
+        display : grid;
+        grid-template-rows : 1fr 1fr;
+        grid-template-columns : 1fr 1fr 1fr;
+        row-gap: 20px;
+        column-gap: 150px;
+        padding-left: 160px;
+        padding-right: 150px;
+        margin-top: 200px;
+        margin-bottom: 50px;
+
+}
+.all-images
+{
+    height: 250px;
+    width: 300px;
+    border-radius : 10px;
+    margin-bottom: 5px;
+    border: 5px solid black;
+}
+.card-title
+{
+    width: 300px;
+    height: 20px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: inherit;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    margin-bottom: 100px;
+    padding-top: 3px;
+    padding-bottom: 22px;
+    cursor : pointer;
+    text-decoration: none;
+}
+.blog-link
+{
+    height: 20px;
+    width: 300px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: larger;
+    border-radius: 10%;
+    padding-top: 3px;
+    padding-bottom:3px;
+    padding-left:5px;
+    padding-right: 5px;
+}
+.blog-link:hover
+{
+    background-color: gray;
+}
+.card-title:hover
+{
+    background-color: gray;   
+}
+.card
+{
+    margin-bottom: 10px;
+}
+#author-heading
+{
+    background-color: rgba(3, 31, 50, 0.594);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 0px;
+    margin-top: 50px;
+    margin-bottom : 50px;
+    text-align: center;
+    cursor: pointer;
+    color : whitesmoke;
+}
+.options 
+{
+    margin-left : 650px;
+}
+#new-blog
+{
+    color: whitesmoke;
+    font-size: x-large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    border: 3px solid rgba(3, 31, 50, 0.594);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    background-color: rgba(3, 31, 50, 0.594);
+    cursor: pointer;
+    margin-left: 670px; 
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Blogs</title>
+    <link href="/styles06.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="main-heading">All newly added  Blogs</h1>
+        <div class="container-02">
+            <% blogs.forEach((blog, index) => { %>
+                <div class="blog-entry">
+                    <h2 id="blog-number">Blog <%= index + 1 %></h2>
+                    <div class="actual-content">
+                        <div class="name">
+                          <label id="name-label">Name :</label>
+                          <span><%= blog.name %></span>
+                        </div>
+                        <div class="content">
+                          <label id="content-label">Content :</label>
+                          <span><%= blog.content %></span>
+                        </div>
+                        <div class="content">
+                            <label id="content-label">Content :</label>
+                            <span><a href=https://<%= blog.link %>>Click</a></span>
+                          </div>
+                        <div class="author">
+                          <label id="author-label">Author Name :</label>
+                          <span><%= blog.author %></span>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+        <div class="edit-buttons">
+            <form action="./new" method="get" id="add-new-form">
+                <button id="add-new" type="submit">Add New</button>
+            </form>
+            <form action="./modify" method="get" id="add-new-form">
+                <button id="add-new" type="submit">Modify</button>
+            </form>
+            <form action="./deleteRequest" method="get" id="add-new-form">
+                <button id="add-new" type="submit">Delete</button>
+            </form>
+            <form action="./back" method="get" id="add-new-form">
+                <button id="add-new" type="submit">Back</button>
+            </form>
+            <form action="./search" method="get" id="add-new-form">
+                <button id="add-new" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,125 @@
+html
+{
+    background-color: rgba(9, 174, 229, 0.171);
+}
+
+.main-heading
+{
+    background-color: rgba(3, 31, 50, 0.594);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom : 50px;
+    text-align: center;
+    cursor: pointer;
+    color : whitesmoke
+}
+
+.container-02
+{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#blog-number
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: rgba(3, 31, 50, 0.594);
+    max-width: fit-content;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right : 10px;
+    padding-top: 5px;
+    padding-bottom : 5px;
+}
+
+
+.blog-entry {
+    border-bottom: 2px solid rgba(3, 31, 50, 0.594);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+}
+
+label
+{
+    color: rgba(3, 14, 21, 0.715);
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#name-label
+{
+    width : 300px;
+    text-align: center;
+}
+#content-label
+{
+    width : 300px;
+    text-align: center;
+}
+#author-label
+{
+    width : 300px;
+    text-align: center;
+}
+
+span
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.actual-content
+{
+    border: 3px solid rgba(3, 14, 21, 0.715);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-entry .name,
+.blog-entry .content,
+.blog-entry .author {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.blog-entry label {
+    font-size: 20px;
+}
+
+.blog-entry span {
+    font-size: 18px;
+    color: rgba(3, 31, 50, 0.8);
+}
+
+.edit-buttons
+{
+    display : flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+#add-new
+{
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background-color: rgba(3, 31, 50, 0.594);
+    font-size: 30px;
+    font-weight: 500;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor : pointer;
+}
+#add-new-form
+{
+    text-align: center;
+    padding-bottom: 40px;
+}

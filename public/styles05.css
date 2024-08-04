@@ -1,0 +1,116 @@
+html
+{
+    background-color: rgba(9, 174, 229, 0.171);
+}
+.main-heading
+{
+    background-color: rgba(3, 31, 50, 0.594);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom : 50px;
+    text-align: center;
+    cursor: pointer;
+    color : whitesmoke
+}
+.container-02
+{
+    border: 5px solid rgba(3, 31, 50, 0.594);
+    padding: 50px;
+    width: 1000px;
+    margin-left: 210px ;
+    border-radius: 20px;
+}
+.id
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.name
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.content
+{
+    display: flex;
+    flex-direction: row;   
+    gap: 20px; 
+}
+.author
+{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#form-element
+{
+    display: flex;
+    flex-direction: column;
+    gap : 30px;
+}
+label 
+{
+    color: rgba(3, 31, 50, 0.594);
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+#submit-button
+{
+    margin-top: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background-color: rgba(3, 31, 50, 0.594);
+    font-size: 30px;
+    font-weight: 500;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor : pointer;
+}
+#id-label
+{
+    width : 300px;
+    text-align: center;
+}
+#name-label
+{
+    width : 300px;
+    text-align: center;
+}
+#content-label
+{
+    width : 300px;
+    text-align: center;
+}
+#author-label
+{
+    width : 300px;
+    text-align: center;
+}
+#blog-id
+{
+    width: 700px;
+}
+#blog-name
+{
+    width: 700px;
+}
+#blog-content
+{
+    width: 700px;
+    size : 1000;
+}
+#author-name
+{
+    width: 700px;
+}
+#submit-button-div
+{
+    text-align: center;
+}

@@ -1,0 +1,94 @@
+.pricing-container
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    width: 400px;
+    justify-content:baseline;
+    height: 400px;
+    margin-bottom: 100px;
+}
+.pricing-plan
+{
+    background-color: whitesmoke;
+    font-size:x-large;
+    border-radius: 10%;
+    margin: 50px;
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 20px;
+    width: 350px;
+    height : 220px;
+    text-align: center;
+    padding-bottom: 100px;
+    margin-left: 110px;
+}
+.plan-name
+{
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+    width: 220px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.plan-price
+{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 900;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.plan-features
+{
+    text-align: left;
+    font-weight: bold;
+    color: crimson;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.features-list
+{
+    text-align: left;
+}
+#basic-plan
+{
+    color: rgb(20, 190, 20);
+}
+#standard-plan
+{
+    color: red;
+}
+#premium-plan
+{
+    color: purple;
+}
+.upgrade-button
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    background-color: rgba(3, 31, 50, 0.594);
+    font-size: 30px;
+    font-weight: 500;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    cursor : pointer;
+}
+.upgrade-button:hover
+{
+    background-color: rgb(1, 39, 85);
+}
+#plan-heading
+{
+    background-color: rgba(3, 31, 50, 0.594);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom : 50px;
+    text-align: center;
+    cursor: pointer;
+    color : whitesmoke
+}
+
